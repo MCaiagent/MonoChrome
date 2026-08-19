@@ -36,9 +36,9 @@ client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
 )
 
-# Free tier-e best quality model. Onno free model options:
-# "llama-3.1-8b-instant" (aro fast, lighter)
-MODEL_NAME = "llama-3.3-70b-versatile"
+# Free tier-e best quality model. Groq June 2026-e purono Llama models
+# deprecate kore diyeche, tai notun GPT-OSS model use kora hocche.
+MODEL_NAME = "openai/gpt-oss-20b"
 
 app = FastAPI(title="MonoChrome Voice Assistant Backend")
 
